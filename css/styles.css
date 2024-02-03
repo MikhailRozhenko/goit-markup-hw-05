@@ -44,6 +44,15 @@ img {
   height: auto;
 }
 
+button {
+  font-family: inherit;
+  color: currentColor;
+}
+
+input {
+  font-family: inherit;
+}
+
 /* header */
 .header-link {
   font-family: 'Raleway', sans-serif;
@@ -582,4 +591,66 @@ img {
 .link-footer-svg:hover,
 .link-footer-svg:focus {
   background-color: #31d0aa;
+}
+
+.foot-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: white;
+  margin-bottom: 16px;
+  margin-left: 80px;
+
+  display: flex;
+}
+
+.container-foot-form {
+  display: flex;
+  gap: 24px;
+  margin-left: 80px;
+  justify-content: center;
+}
+
+.input-foot {
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #2e2f42;
+}
+
+.button-foot {
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  gap: 16px;
+}
+
+.icon-form-foot {
+  fill: #fff;
+}
+
+.subs-foot {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: white;
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: white;
+  padding: 8px 16px;
 }
