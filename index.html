@@ -18,7 +18,20 @@
     />
   </head>
   <body>
-    <div class="is-open"></div>
+    <div class="overlay-main">
+      <div class="is-open">
+        <p class="title-modal">Your conacts and we will call you back</p>
+        <form name="modal-form" class="form-overlay">
+          <label class="label-modal" for="username">Name</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            class="input-modal"
+          />
+        </form>
+      </div>
+    </div>
     <!-- header -->
 
     <header class="bord-hed">
@@ -477,7 +490,7 @@
             <button type="button" class="button-foot">
               <span class="subs-foot">Subscribe</span>
               <svg width="24" height="24" class="icon-form-foot">
-                <use href="./images/icons.svg#icon-send"></use>
+                <use href="./images/icons.svg#icon-sendff"></use>
               </svg>
             </button>
           </div>
