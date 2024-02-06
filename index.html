@@ -18,20 +18,6 @@
     />
   </head>
   <body>
-    <div class="overlay-main">
-      <div class="is-open">
-        <p class="title-modal">Your conacts and we will call you back</p>
-        <form name="modal-form" class="form-overlay">
-          <label class="label-modal" for="username">Name</label>
-          <input
-            type="text"
-            name="username"
-            id="username"
-            class="input-modal"
-          />
-        </form>
-      </div>
-    </div>
     <!-- header -->
 
     <header class="bord-hed">
@@ -490,12 +476,75 @@
             <button type="button" class="button-foot">
               <span class="subs-foot">Subscribe</span>
               <svg width="24" height="24" class="icon-form-foot">
-                <use href="./images/icons.svg#icon-sendff"></use>
+                <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
           </div>
         </form>
       </div>
     </footer>
+
+    <!-- Modal window -->
+    <div class="overlay-main">
+      <div class="is-open">
+        <p class="text-modal">Leave your contacts and we will call you back</p>
+
+        <form class="form-modal">
+          <div class="name-container-modal">
+            <label for="usernamemodal" class="name-modal">Name</label>
+            <div class="wrap-modal">
+              <input
+                type="text"
+                name="username"
+                id="usernamemodal"
+                class="input-name-modal"
+              />
+              <svg width="18" height="18" class="icon-modal">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="name-container-modal">
+            <label for="numbermodal" class="name-modal">Phone</label>
+            <div class="wrap-modal">
+              <input
+                type="tel"
+                name="call"
+                id="numbermodal"
+                class="input-name-modal"
+              />
+              <svg width="18" height="24" class="icon-modal">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="name-container-modal">
+            <label for="mailmodal" class="name-modal">Email</label>
+            <div class="wrap-modal">
+              <input
+                type="text"
+                name="username"
+                id="mailmodal"
+                class="input-name-modal"
+              />
+              <svg width="18" height="18" class="icon-modal">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="name-container-modal">
+            <label for="text" class="name-modal">Comment</label>
+            <textarea
+              id="text"
+              name="text-comment"
+              class="text-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
