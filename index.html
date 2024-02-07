@@ -485,8 +485,8 @@
     </footer>
 
     <!-- Modal window -->
-    <div class="overlay-main">
-      <div class="is-open">
+    <div class="backdrop is-open">
+      <div class="modal">
         <button type="button" class="button-closed-form">
           <svg width="8" height="8" class="icon-closed-form">
             <use href="./images/icons.svg#icon-closed"></use>
@@ -531,7 +531,7 @@
             <div class="wrap-modal">
               <input
                 type="email"
-                name="username"
+                name="mail"
                 id="mailmodal"
                 class="input-name-modal"
                 required
@@ -556,6 +556,7 @@
               type="checkbox"
               value="checkbox-modal"
               id="checkbox-modal"
+              name="checked"
               class="visually-hidden checked"
             />
             <span class="check-span"></span>
