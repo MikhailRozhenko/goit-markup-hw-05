@@ -462,30 +462,32 @@
             </li>
           </ul>
         </div>
-        <form name="foot-form">
-          <label for="meil" class="foot-label">Subscribe</label>
+        <div class="container-footer-form">
+          <p class="foot-label">Subscribe</p>
+          <form name="foot-form">
+            <label class="label-footer">
+              <input
+                type="email"
+                name="subscribe-footer"
+                placeholder="E-mail"
+                id="meil"
+                class="input-foot"
+              />
+            </label>
 
-          <div class="container-foot-form">
-            <input
-              type="email"
-              name="subscribe"
-              placeholder="E-mail"
-              id="meil"
-              class="input-foot"
-            />
-            <button type="button" class="button-foot">
+            <button type="submit" class="button-foot">
               <span class="subs-foot">Subscribe</span>
               <svg width="24" height="24" class="icon-form-foot">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </footer>
 
     <!-- Modal window -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="button-closed-form">
           <svg width="8" height="8" class="icon-closed-form">

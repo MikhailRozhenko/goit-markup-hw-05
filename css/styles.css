@@ -606,7 +606,7 @@ input {
   display: flex;
 }
 
-.container-foot-form {
+.foot-form {
   display: flex;
   gap: 24px;
   margin-left: 80px;
@@ -614,12 +614,17 @@ input {
 }
 
 .input-foot {
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #2e2f42;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
 }
 
 .button-foot {
@@ -632,10 +637,21 @@ input {
   border: none;
   display: flex;
   gap: 16px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
 }
 
 .icon-form-foot {
   fill: #fff;
+  margin-left: 16px;
 }
 
 .subs-foot {
@@ -645,6 +661,10 @@ input {
   letter-spacing: 0.04em;
   text-align: center;
   color: white;
+}
+
+.input-foot::placeholder {
+  color: #ffffff;
 }
 
 /* modal window */
