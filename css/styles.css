@@ -44,16 +44,6 @@ img {
   height: auto;
 }
 
-button {
-  font-family: inherit;
-  color: currentColor;
-}
-
-input {
-  font-family: inherit;
-  border: none;
-}
-
 /* header */
 .header-link {
   font-family: 'Raleway', sans-serif;
@@ -592,79 +582,6 @@ input {
 .link-footer-svg:hover,
 .link-footer-svg:focus {
   background-color: #31d0aa;
-}
-
-.foot-label {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: white;
-  margin-bottom: 16px;
-  margin-left: 80px;
-
-  display: flex;
-}
-
-.foot-form {
-  display: flex;
-  gap: 24px;
-  margin-left: 80px;
-  justify-content: center;
-}
-
-.input-foot {
-  border: 1px solid #ffffff;
-  border-radius: 4px;
-  width: 264px;
-  height: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: transparent;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  padding-left: 16px;
-  color: #ffffff;
-}
-
-.button-foot {
-  border-radius: 4px;
-  padding: 8px 24px;
-  min-width: 165px;
-  height: 40px;
-  background-color: #4d5ae5;
-  cursor: pointer;
-  border: none;
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  border: none;
-}
-
-.icon-form-foot {
-  fill: #fff;
-  margin-left: 16px;
-}
-
-.subs-foot {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: white;
-}
-
-.input-foot::placeholder {
-  color: #ffffff;
 }
 
 /* modal window */
